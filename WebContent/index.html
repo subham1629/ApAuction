@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>AP Auction</title>
+  </head>
+  <body align="center" style="background-color: bisque;">
+    <h1>Welcome to AP Auction.Please Enter Bid</h1>
+    <form action="bid">
+      <label>Item ID: </label>
+      <input type="number" name="itemid" required /><br />
+      <label>Item Name: </label>
+      <input type="text" name="itemname" required /><br />
+      <label>Your Name: </label>
+      <input type="text" name="yourname" required /><br />
+      <label>Your Email Address: </label>
+      <input type="text" name="email" required /><br />
+      <label>Amount Bid: </label>
+      <input type="number" step="any" name="bidamount" required /><br />
+      <label>Auto-increment bid to match other bidders?: </label>
+      <input type="checkbox" name="autoinc" required /><br />
+      <input type="submit" value="Submit Bid" />
+    </form>
+  </body>
+</html>
